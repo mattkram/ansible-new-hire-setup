@@ -143,9 +143,9 @@ You can also define specific paths, template files, and configurations to be cre
 
 This supports:
 
-* plain files (`user_file_list`)
-* templates (`user_template_list`)
-* downloads from remote URLS (`user_url_list`). Defaults to overwriting files every time.
+- plain files (`user_file_list`)
+- templates (`user_template_list`)
+- downloads from remote URLS (`user_url_list`). Defaults to overwriting files every time.
 
 **Beware: Running the below will overwrite files in the destination directories [defined here](uservars/template.yml#L15), potentially causing data loss!**
 
